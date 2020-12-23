@@ -1,0 +1,33 @@
+#__voice_help_decor {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#__voice_help_decor > div {
+    background: white;
+}
+#__voice_help_table {
+    border-collapse: collapse;
+    margin: 7px;
+}
+
+#__voice_help_table td,
+#__voice_help_table th {
+    border: 1px solid black;
+    padding: 2px;
+    text-align: center;
+}
+.__voice_empty {
+    height: 5px;
+}
+.__voice_empty td {
+    background: yellow;
+}
